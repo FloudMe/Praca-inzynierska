@@ -1,0 +1,44 @@
+{
+    "trainigs":[
+       {
+          "trainigName":"First training",
+          "exercises":[
+             {
+                "name":"First work",
+                "description":"Work hard",
+                "howLong":"15 minutes"
+             },
+             {
+                "name":"Second work",
+                "description":"Work low",
+                "howLong":"30 minutes"
+             },
+             {
+                "name":"Third work",
+                "description":"Work low",
+                "howLong":"20 minutes"
+             }
+          ]
+       },
+       {
+          "trainigName":"Second training",
+          "exercises":[
+             {
+                "name":"Forth work",
+                "description":"Work hard",
+                "howLong":"15 minutes"
+             },
+             {
+                "name":"Fifth work",
+                "description":"Work low",
+                "howLong":"30 minutes"
+             },
+             {
+                "name":"Sixth work",
+                "description":"Work low",
+                "howLong":"20 minutes"
+             }
+          ]
+       }
+    ]
+ }

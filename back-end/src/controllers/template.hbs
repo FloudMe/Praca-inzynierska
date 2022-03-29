@@ -1,0 +1,50 @@
+<style type="text/css">
+    body {
+        font-size: "Helvetica Nueu", Helvetica, Arial, sans-serif;
+        font-weight: 200;
+    }
+
+    h1, .exercise {
+        border-radius: 0.3em;
+        box-shadow: 0.05em 0.05em gray;
+        margin-left: 2.5%;
+    }
+
+    h1 {
+        width:95%;
+        height: auto;
+        background-color: beige;
+        text-align: center;
+    }
+
+    .exercise {
+        width: 93%;
+        background-color: aliceblue;
+        margin-top: 1em;
+        padding: 0.5em;
+    }
+
+    p {
+        margin-left: 1em;
+    }
+
+    h2 {
+        margin-left: 0.5em;
+    }
+</style>
+
+<html>
+    <body>
+        <h1>{{trainigs.trainigName}}</h1>
+
+        {{#each trainigs.exercises as |exercise|}}
+        <div class="exercise">
+            <h2>{{exercise.name}}</h2>
+            <hr>
+            <p>{{exercise.description}}</p>
+            <p>Work for {{exercise.howLong}}</p>
+        </div>
+        
+        {{/each}}
+    </body>
+</html>
